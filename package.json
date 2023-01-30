@@ -2,12 +2,12 @@
   "name": "scratch-bounce",
   "version": "0.0.1",
   "description": "platformer with gravity",
-  "main": "index.js",
   "repository": "git@github.com:pinecone-dot-website/scratch-bounce.git",
-  "author": "Eric Eaglstun <s@gmail.com>",
   "license": "WTFPL",
+  "author": "Eric Eaglstun <s@gmail.com>",
+  "main": "index.js",
   "scripts": {
-    "lint": "eslint --fix",
+    "lint": "eslint --ext .json . --fix",
     "unpack": "node scripts/unpack.js"
   },
   "devDependencies": {
