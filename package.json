@@ -7,11 +7,12 @@
   "author": "Eric Eaglstun <s@gmail.com>",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint --ext .json . --fix",
+    "lint": "eslint --fix src/project.json",
     "unpack": "node scripts/unpack.js"
   },
   "devDependencies": {
     "decompress": "^4.2.1",
-    "eslint": "^8.33.0"
+    "eslint": "^8.33.0",
+    "eslint-plugin-json-format": "^2.0.1"
   }
 }
